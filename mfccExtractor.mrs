@@ -1,0 +1,9 @@
+// mfccExtractor.mrs
+
+Series {
+    -> input: SoundFileSource {filename="guitar1.wav"}
+    -> Spectrum -> PowerSpectrum
+    -> MFCC
+    -> output: ArffFileSink {filename="mfcc.arff"}
+    + done = (input/hasData == false)
+}
