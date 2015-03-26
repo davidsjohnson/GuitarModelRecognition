@@ -2,6 +2,7 @@
 
 Series {
     -> input: SoundFileSource {filename="guitar1.wav"}
+    -> Windowing {size=2048}
     -> Spectrum -> PowerSpectrum
     -> MFCC
     -> output: ArffFileSink {filename="mfcc.arff"}
