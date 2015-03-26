@@ -1,5 +1,9 @@
 venv/
-data/
+data/acoustic/
+data/electric/
+data/*
+!data/bextract_single.npz
+!data/bextract_single_test.npz
 *.pyc
 *~
 .DS_STORE
