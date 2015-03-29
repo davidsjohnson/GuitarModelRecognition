@@ -1,0 +1,482 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayesSimple 
+Relation:     MARSYAS_EMPTYacoustic_electric.arff
+Instances:    101919
+Attributes:   63
+              Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_C#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_D#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_E_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_G_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_G#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_C#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_D#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_E_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_G_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_G#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              output
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes (simple)
+
+Class acoustic: P(C) = 0.79556715
+
+Attribute Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.03546849	Standard Deviation: 0.01816547
+
+Attribute Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.02654604	Standard Deviation: 0.01334333
+
+Attribute Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.06227764	Standard Deviation: 0.10250366
+
+Attribute Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.07975328	Standard Deviation: 0.01377458
+
+Attribute Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -57.58083208	Standard Deviation: 7.9918514 
+
+Attribute Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 7.79323242	Standard Deviation: 2.4527133 
+
+Attribute Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.20959103	Standard Deviation: 1.40041449
+
+Attribute Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 1.02544703	Standard Deviation: 0.92294044
+
+Attribute Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.14446305	Standard Deviation: 0.80050697
+
+Attribute Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.48990263	Standard Deviation: 0.75944987
+
+Attribute Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.22713333	Standard Deviation: 0.7067036 
+
+Attribute Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.14260973	Standard Deviation: 0.70576152
+
+Attribute Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.17014976	Standard Deviation: 0.80175281
+
+Attribute Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00534617	Standard Deviation: 0.79672373
+
+Attribute Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.07652227	Standard Deviation: 0.71834911
+
+Attribute Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.10202396	Standard Deviation: 0.83054577
+
+Attribute Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.05090721	Standard Deviation: 0.76680275
+
+Attribute Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00007816	Standard Deviation: 0.0001076 
+
+Attribute Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00007979	Standard Deviation: 0.00011154
+
+Attribute Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00008611	Standard Deviation: 0.0001228 
+
+Attribute Mean_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00009433	Standard Deviation: 0.00013507
+
+Attribute Mean_Mem20_PeakRatio_Chroma_C#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00009601	Standard Deviation: 0.00013697
+
+Attribute Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00009904	Standard Deviation: 0.0001419 
+
+Attribute Mean_Mem20_PeakRatio_Chroma_D#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00009781	Standard Deviation: 0.0001396 
+
+Attribute Mean_Mem20_PeakRatio_Chroma_E_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00009471	Standard Deviation: 0.00013603
+
+Attribute Mean_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00008918	Standard Deviation: 0.00012863
+
+Attribute Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00008356	Standard Deviation: 0.00011821
+
+Attribute Mean_Mem20_PeakRatio_Chroma_G_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00008064	Standard Deviation: 0.00011268
+
+Attribute Mean_Mem20_PeakRatio_Chroma_G#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00007792	Standard Deviation: 0.00010807
+
+Attribute Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 1.63609101	Standard Deviation: 0.54205634
+
+Attribute Mean_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 6.77821289	Standard Deviation: 21.78108908
+
+Attribute Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.01103592	Standard Deviation: 0.01044666
+
+Attribute Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00623005	Standard Deviation: 0.00740394
+
+Attribute Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.03305705	Standard Deviation: 0.0818349 
+
+Attribute Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.03289367	Standard Deviation: 0.01286013
+
+Attribute Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 2.02844431	Standard Deviation: 1.9929561 
+
+Attribute Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.95657489	Standard Deviation: 0.50571329
+
+Attribute Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.59356632	Standard Deviation: 0.26837709
+
+Attribute Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.50772576	Standard Deviation: 0.21399674
+
+Attribute Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.4764403 	Standard Deviation: 0.19876401
+
+Attribute Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.44866099	Standard Deviation: 0.18840491
+
+Attribute Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.4424983 	Standard Deviation: 0.18975782
+
+Attribute Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.43734994	Standard Deviation: 0.19703013
+
+Attribute Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.43259145	Standard Deviation: 0.20992842
+
+Attribute Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.40995151	Standard Deviation: 0.20097527
+
+Attribute Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.39430213	Standard Deviation: 0.19315988
+
+Attribute Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.39126096	Standard Deviation: 0.22424637
+
+Attribute Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.37085448	Standard Deviation: 0.20068991
+
+Attribute Std_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00005284	Standard Deviation: 0.00009072
+
+Attribute Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00005613	Standard Deviation: 0.00009721
+
+Attribute Std_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00006256	Standard Deviation: 0.00010982
+
+Attribute Std_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00006904	Standard Deviation: 0.00012159
+
+Attribute Std_Mem20_PeakRatio_Chroma_C#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00006914	Standard Deviation: 0.00012177
+
+Attribute Std_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00006917	Standard Deviation: 0.00012278
+
+Attribute Std_Mem20_PeakRatio_Chroma_D#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00006684	Standard Deviation: 0.00011967
+
+Attribute Std_Mem20_PeakRatio_Chroma_E_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00006454	Standard Deviation: 0.00011638
+
+Attribute Std_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00006043	Standard Deviation: 0.00010987
+
+Attribute Std_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00005598	Standard Deviation: 0.00010111
+
+Attribute Std_Mem20_PeakRatio_Chroma_G_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00005331	Standard Deviation: 0.00009507
+
+Attribute Std_Mem20_PeakRatio_Chroma_G#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00005143	Standard Deviation: 0.00009024
+
+Attribute Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.18947425	Standard Deviation: 0.16802131
+
+Attribute Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 2.80992132	Standard Deviation: 11.84525482
+
+
+
+Class electric: P(C) = 0.20443285
+
+Attribute Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.02175371	Standard Deviation: 0.02188965
+
+Attribute Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.01907047	Standard Deviation: 0.01405467
+
+Attribute Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.04979423	Standard Deviation: 0.11159271
+
+Attribute Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.08357797	Standard Deviation: 0.0172974 
+
+Attribute Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -66.86397321	Standard Deviation: 6.4868147 
+
+Attribute Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 11.02606356	Standard Deviation: 1.92214452
+
+Attribute Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.47963606	Standard Deviation: 2.08638111
+
+Attribute Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 1.02822416	Standard Deviation: 0.93410828
+
+Attribute Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.2132766 	Standard Deviation: 0.72527216
+
+Attribute Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.1251065 	Standard Deviation: 0.62932154
+
+Attribute Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.02812734	Standard Deviation: 0.59502788
+
+Attribute Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.15086871	Standard Deviation: 0.58254935
+
+Attribute Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.25056164	Standard Deviation: 0.58961261
+
+Attribute Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.12532967	Standard Deviation: 0.62018453
+
+Attribute Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.26317574	Standard Deviation: 0.70456577
+
+Attribute Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.19447616	Standard Deviation: 0.71011918
+
+Attribute Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: -0.17178009	Standard Deviation: 0.77773787
+
+Attribute Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002448	Standard Deviation: 0.00005202
+
+Attribute Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002345	Standard Deviation: 0.00005024
+
+Attribute Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002369	Standard Deviation: 0.00005166
+
+Attribute Mean_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002562	Standard Deviation: 0.00005771
+
+Attribute Mean_Mem20_PeakRatio_Chroma_C#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002675	Standard Deviation: 0.00006133
+
+Attribute Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002837	Standard Deviation: 0.00006472
+
+Attribute Mean_Mem20_PeakRatio_Chroma_D#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002958	Standard Deviation: 0.00006709
+
+Attribute Mean_Mem20_PeakRatio_Chroma_E_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002995	Standard Deviation: 0.00006775
+
+Attribute Mean_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002898	Standard Deviation: 0.00006556
+
+Attribute Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002689	Standard Deviation: 0.0000607 
+
+Attribute Mean_Mem20_PeakRatio_Chroma_G_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002565	Standard Deviation: 0.00005679
+
+Attribute Mean_Mem20_PeakRatio_Chroma_G#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00002512	Standard Deviation: 0.00005403
+
+Attribute Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 1.48647319	Standard Deviation: 0.40324698
+
+Attribute Mean_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 4.45322779	Standard Deviation: 7.87367881
+
+Attribute Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00562333	Standard Deviation: 0.01273427
+
+Attribute Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00355457	Standard Deviation: 0.00808557
+
+Attribute Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.03390818	Standard Deviation: 0.09449524
+
+Attribute Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.03924856	Standard Deviation: 0.01642768
+
+Attribute Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 2.12193691	Standard Deviation: 1.77130696
+
+Attribute Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 1.2196691 	Standard Deviation: 0.55002535
+
+Attribute Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.71786745	Standard Deviation: 0.36354255
+
+Attribute Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.47356056	Standard Deviation: 0.19089562
+
+Attribute Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.44167068	Standard Deviation: 0.20675449
+
+Attribute Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.43140261	Standard Deviation: 0.19021691
+
+Attribute Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.41324965	Standard Deviation: 0.19021131
+
+Attribute Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.44763408	Standard Deviation: 0.17782922
+
+Attribute Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.39620555	Standard Deviation: 0.17389424
+
+Attribute Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.36339372	Standard Deviation: 0.15241772
+
+Attribute Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.38718014	Standard Deviation: 0.19319497
+
+Attribute Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.3546872 	Standard Deviation: 0.22397416
+
+Attribute Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.34257717	Standard Deviation: 0.23235085
+
+Attribute Std_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001356	Standard Deviation: 0.00003575
+
+Attribute Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.0000132 	Standard Deviation: 0.00003526
+
+Attribute Std_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001372	Standard Deviation: 0.00003707
+
+Attribute Std_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001503	Standard Deviation: 0.00004177
+
+Attribute Std_Mem20_PeakRatio_Chroma_C#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001555	Standard Deviation: 0.00004421
+
+Attribute Std_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001623	Standard Deviation: 0.00004591
+
+Attribute Std_Mem20_PeakRatio_Chroma_D#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001683	Standard Deviation: 0.00004728
+
+Attribute Std_Mem20_PeakRatio_Chroma_E_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001719	Standard Deviation: 0.00004795
+
+Attribute Std_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001674	Standard Deviation: 0.00004652
+
+Attribute Std_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001541	Standard Deviation: 0.00004294
+
+Attribute Std_Mem20_PeakRatio_Chroma_G_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001442	Standard Deviation: 0.00003967
+
+Attribute Std_Mem20_PeakRatio_Chroma_G#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.00001391	Standard Deviation: 0.00003712
+
+Attribute Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 0.13099153	Standard Deviation: 0.11988853
+
+Attribute Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+Mean: 1.33581128	Standard Deviation: 3.69167208
+
+
+
+Time taken to build model: 0.43 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       51390               50.459  %
+Incorrectly Classified Instances     50455               49.541  %
+Kappa statistic                          0.1782
+Mean absolute error                      0.4948
+Root mean squared error                  0.6979
+Relative absolute error                152.0822 %
+Root relative squared error            172.9991 %
+Total Number of Instances           101845     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.393     0.063      0.96      0.393     0.558      0.828    acoustic
+                 0.937     0.607      0.284     0.937     0.436      0.828    electric
+Weighted Avg.    0.505     0.175      0.822     0.505     0.533      0.828
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 31877 49133 |     a = acoustic
+  1322 19513 |     b = electric
+
