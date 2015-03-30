@@ -10,12 +10,11 @@ from sklearn.tree import DecisionTreeClassifier
 
 def acousticElectricModel():
 
-	scaler = preprocessing.MinMaxScaler(feature_range=(-1,1))
 
 	# load training data from saved feature extraction
 	# data = np.load("acoustic_electric.npz")
 	featureNames, trainingData, trainingLabels, trainingSources, classes = extractFeatures("acoustic_electric.mf")
-	trainingData = scaler.fit_transform(trainingData)
+	print "Len:", len(trainingData[0])
 
 	print "Building Acoustic v. Electric Model..."
 	model = SVC()
@@ -23,7 +22,6 @@ def acousticElectricModel():
 	scores = cross_validation.cross_val_score(model, trainingData, trainingLabels, cv=5)
 	print "Scores:", scores
 
-	# model = DecisionTreeClassifier()
 	model.fit(trainingData, trainingLabels)
 	print model
 
@@ -32,15 +30,16 @@ def acousticElectricModel():
 
 def acousticModel():
 
-	scaler = preprocessing.MinMaxScaler(feature_range=(-1,1))
-
 	# load training data from saved feature extraction
 	featureNames, trainingData, trainingLabels, trainingSources, classes = extractFeatures("acoustic_models.mf")
-	trainingData = scaler.fit_transform(trainingData)
+	print "Len:", len(trainingData[0])
 
 	print "Building Acoustic Model..."
 	model = SVC()
-	# model = DecisionTreeClassifier()
+
+	scores = cross_validation.cross_val_score(model, trainingData, trainingLabels, cv=5)
+	print "Scores:", scores
+
 	model.fit(trainingData, trainingLabels)
 	print model
 
@@ -49,15 +48,16 @@ def acousticModel():
 
 def electricModel():
 
-	scaler = preprocessing.MinMaxScaler(feature_range=(-1,1))
-
 	# load training data from saved feature extraction
 	featureNames, trainingData, trainingLabels, trainingSources, classes = extractFeatures("electric_models.mf")
-	trainingData = scaler.fit_transform(trainingData)
+	print "Len:", len(trainingData[0])
 
 	print "Building Electric Model..."
 	model = SVC()
-	# model = DecisionTreeClassifier()
+
+	scores = cross_validation.cross_val_score(model, trainingData, trainingLabels, cv=5)
+	print "Scores:", scores
+
 	model.fit(trainingData, trainingLabels)
 
 	print model
@@ -67,15 +67,16 @@ def electricModel():
 
 def allModel():
 
-	scaler = preprocessing.MinMaxScaler(feature_range=(-1,1))
-
 	# load training data from saved feature extraction
 	featureNames, trainingData, trainingLabels, trainingSources, classes = extractFeatures("guitar_models.mf")
-	trainingData = scaler.fit_transform(trainingData)
+	print "Len:", len(trainingData[0])
 
 	print "Building Electric Model..."
 	model = SVC()
-	# model = DecisionTreeClassifier()
+
+	scores = cross_validation.cross_val_score(model, trainingData, trainingLabels, cv=5)
+	print "Scores:", scores
+
 	model.fit(trainingData, trainingLabels)
 	print model
 
@@ -84,6 +85,6 @@ def allModel():
 
 if __name__ == '__main__':
 	acousticElectricModel()
-	# acousticModel()
-	# electricModel()
+	acousticModel()
+	electricModel()
 	# allModel()

@@ -53,11 +53,6 @@ acoustic/11/b.wav	a11
 acoustic/11/c.wav	a11
 acoustic/11/d.wav	a11
 
-acoustic/12/a.wav	a12
-acoustic/12/b.wav	a12
-acoustic/12/c.wav	a12
-acoustic/12/d.wav	a12
-
 electric/1/a.wav	e1
 electric/1/b.wav	e1
 electric/1/c.wav	e1

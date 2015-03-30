@@ -20,6 +20,7 @@ def extractFeatures(collectionFile):
     net = marsyas_util.create(
         ["Series/extract_network",
             ["SoundFileSource/src",
+             "MixToMono/mono",
              "TimbreFeatures/featExtractor",
              "TextureStats/tStats",
              "Annotator/annotator"    # not doing anything with annotator but receive all zeros for tStats processedData without it?

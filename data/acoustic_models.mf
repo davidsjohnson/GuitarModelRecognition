@@ -1,59 +1,50 @@
 acoustic/1/a.wav	a1
 acoustic/1/b.wav	a1
-acoustic/1/c.wav	a1
 acoustic/1/d.wav	a1
 
 acoustic/2/a.wav	a2
 acoustic/2/b.wav	a2
-acoustic/2/c.wav	a2
 acoustic/2/d.wav	a2
 
 acoustic/3/a.wav	a3
 acoustic/3/b.wav	a3
-acoustic/3/c.wav	a3
 acoustic/3/d.wav	a3
 
 acoustic/4/a.wav	a4
 acoustic/4/b.wav	a4
-acoustic/4/c.wav	a4
+
 acoustic/4/d.wav	a4
 
 acoustic/5/a.wav	a5
 acoustic/5/b.wav	a5
-acoustic/5/c.wav	a5
+
 acoustic/5/d.wav	a5
 
 acoustic/6/a.wav	a6
 acoustic/6/b.wav	a6
-acoustic/6/c.wav	a6
+
 acoustic/6/d.wav	a6
 
 acoustic/7/a.wav	a7
 acoustic/7/b.wav	a7
-acoustic/7/c.wav	a7
+
 acoustic/7/d.wav	a7
 
 acoustic/8/a.wav	a8
 acoustic/8/b.wav	a8
-acoustic/8/c.wav	a8
+
 acoustic/8/d.wav	a8
 
 acoustic/9/a.wav	a9
 acoustic/9/b.wav	a9
-acoustic/9/c.wav	a9
+
 acoustic/9/d.wav	a9
 
 acoustic/10/a.wav	a10
 acoustic/10/b.wav	a10
-acoustic/10/c.wav	a10
 acoustic/10/d.wav	a10
 
 acoustic/11/a.wav	a11
 acoustic/11/b.wav	a11
-acoustic/11/c.wav	a11
-acoustic/11/d.wav	a11
 
-acoustic/12/a.wav	a12
-acoustic/12/b.wav	a12
-acoustic/12/c.wav	a12
-acoustic/12/d.wav	a12
+acoustic/11/d.wav	a11
