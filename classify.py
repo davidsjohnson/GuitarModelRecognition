@@ -29,9 +29,9 @@ testSources = testData['sources']
 
 
 # select model
-model = KNeighborsClassifier(n_neighbors = 1)
+# model = KNeighborsClassifier(n_neighbors = 1)
 # model = GaussianNB()
-# model = SVC()
+model = SVC()
 model.fit(trainingFeatures, trainingLabels)
 
 # test model

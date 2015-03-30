@@ -1,0 +1,13 @@
+electric/1/a.wav	e1
+electric/1/b.wav	e1
+electric/1/c.wav	e1
+electric/1/d.wav	e1
+electric/2/a.wav	e2
+electric/2/b.wav	e2
+electric/2/c.wav	e2
+electric/2/d.wav	e2
+electric/3/a.wav	e3
+electric/3/b.wav	e3
+electric/3/c.wav	e3
+electric/3/d.wav	e3
+

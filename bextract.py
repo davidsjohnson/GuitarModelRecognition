@@ -32,8 +32,8 @@ def extractFeatures(collectionFile):
         "SoundFileSource/src/mrs_bool/hasData")
 
     # set up features to extract
-    # net.updControl("TimbreFeatures/featExtractor/mrs_string/enableTDChild",
-    #     marsyas.MarControlPtr.from_string("ZeroCrossings/zcrs"))
+    net.updControl("TimbreFeatures/featExtractor/mrs_string/enableTDChild",
+        marsyas.MarControlPtr.from_string("ZeroCrossings/zcrs"))
     # net.updControl("TimbreFeatures/featExtractor/mrs_string/enableLPCChild",
     #     marsyas.MarControlPtr.from_string("Series/lspbranch"))
     # net.updControl("TimbreFeatures/featExtractor/mrs_string/enableLPCChild",
@@ -42,14 +42,14 @@ def extractFeatures(collectionFile):
         marsyas.MarControlPtr.from_string("MFCC/mfcc"))
     # net.updControl("TimbreFeatures/featExtractor/mrs_string/enableSPChild",
     #     marsyas.MarControlPtr.from_string("SCF/scf"))
-    # net.updControl("TimbreFeatures/featExtractor/mrs_string/enableSPChild",
-    #     marsyas.MarControlPtr.from_string("Rolloff/rf"))
-    # net.updControl("TimbreFeatures/featExtractor/mrs_string/enableSPChild",
-    #     marsyas.MarControlPtr.from_string("Flux/flux"))
-    # net.updControl("TimbreFeatures/featExtractor/mrs_string/enableSPChild",
-    #     marsyas.MarControlPtr.from_string("Centroid/cntrd"))
-    # net.updControl("TimbreFeatures/featExtractor/mrs_string/enableSPChild",
-    #     marsyas.MarControlPtr.from_string("Series/chromaPrSeries"))
+    net.updControl("TimbreFeatures/featExtractor/mrs_string/enableSPChild",
+        marsyas.MarControlPtr.from_string("Rolloff/rf"))
+    net.updControl("TimbreFeatures/featExtractor/mrs_string/enableSPChild",
+        marsyas.MarControlPtr.from_string("Flux/flux"))
+    net.updControl("TimbreFeatures/featExtractor/mrs_string/enableSPChild",
+        marsyas.MarControlPtr.from_string("Centroid/cntrd"))
+    net.updControl("TimbreFeatures/featExtractor/mrs_string/enableSPChild",
+        marsyas.MarControlPtr.from_string("Series/chromaPrSeries"))
 
     # setup filenames 
     net.updControl("mrs_string/filename",

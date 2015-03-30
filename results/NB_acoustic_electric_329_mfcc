@@ -1,0 +1,230 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     MARSYAS_EMPTYacoustic_electric_mfcc.arff
+Instances:    101919
+Attributes:   27
+              Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              output
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                                                                    Class
+Attribute                                                                        acoustic electric
+                                                                                    (0.8)    (0.2)
+===================================================================================================
+Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                            -57.5808  -66.864
+  std. dev.                                                                         7.9918   6.4867
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0004   0.0004
+
+Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              7.7932  11.0261
+  std. dev.                                                                         2.4527   1.9221
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0002   0.0002
+
+Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                             -0.2096   0.4796
+  std. dev.                                                                         1.4004   2.0863
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              1.0254   1.0282
+  std. dev.                                                                         0.9229   0.9341
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                             -0.1445   0.2133
+  std. dev.                                                                         0.8005   0.7253
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.4899   0.1251
+  std. dev.                                                                         0.7594   0.6293
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.2271   0.0281
+  std. dev.                                                                         0.7067    0.595
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.1426  -0.1509
+  std. dev.                                                                         0.7058   0.5825
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                             -0.1701  -0.2506
+  std. dev.                                                                         0.8017   0.5896
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.0053  -0.1253
+  std. dev.                                                                         0.7967   0.6202
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                             -0.0765  -0.2632
+  std. dev.                                                                         0.7183   0.7045
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              -0.102  -0.1945
+  std. dev.                                                                         0.8305   0.7101
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.0509  -0.1718
+  std. dev.                                                                         0.7668   0.7777
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              2.0284   2.1219
+  std. dev.                                                                         1.9929   1.7713
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0002   0.0002
+
+Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.9566   1.2197
+  std. dev.                                                                         0.5057     0.55
+  weight sum                                                                         81084    20835
+  precision                                                                         0.0001   0.0001
+
+Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.5936   0.7179
+  std. dev.                                                                         0.2684   0.3635
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.5077   0.4736
+  std. dev.                                                                          0.214   0.1909
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.4764   0.4417
+  std. dev.                                                                         0.1988   0.2067
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.4487   0.4314
+  std. dev.                                                                         0.1884   0.1902
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.4425   0.4132
+  std. dev.                                                                         0.1898   0.1902
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.4373   0.4476
+  std. dev.                                                                          0.197   0.1778
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.4326   0.3962
+  std. dev.                                                                         0.2099   0.1739
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                                0.41   0.3634
+  std. dev.                                                                          0.201   0.1524
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.3943   0.3872
+  std. dev.                                                                         0.1932   0.1932
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.3913   0.3547
+  std. dev.                                                                         0.2242    0.224
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+  mean                                                                              0.3709   0.3426
+  std. dev.                                                                         0.2007   0.2323
+  weight sum                                                                         81084    20835
+  precision                                                                              0        0
+
+
+
+Time taken to build model: 0.57 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       81944               80.4011 %
+Incorrectly Classified Instances     19975               19.5989 %
+Kappa statistic                          0.4903
+Mean absolute error                      0.202 
+Root mean squared error                  0.3861
+Relative absolute error                 62.1051 %
+Root relative squared error             95.744  %
+Coverage of cases (0.95 level)          94.4819 %
+Mean rel. region size (0.95 level)      65.3563 %
+Total Number of Instances           101919     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.814    0.234    0.931      0.814    0.869      0.508    0.872     0.956     acoustic
+                 0.766    0.186    0.514      0.766    0.615      0.508    0.872     0.626     electric
+Weighted Avg.    0.804    0.225    0.846      0.804    0.817      0.508    0.872     0.889     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 65992 15092 |     a = acoustic
+  4883 15952 |     b = electric
+

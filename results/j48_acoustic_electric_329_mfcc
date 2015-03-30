@@ -1,0 +1,1285 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     MARSYAS_EMPTYacoustic_electric_mfcc.arff
+Instances:    101919
+Attributes:   27
+              Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              output
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -57.545961
+|   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.887871
+|   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 4.621375
+|   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.670579
+|   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.415115
+|   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -2.138647
+|   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.325157
+|   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -61.135867: electric (878.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -61.135867
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -2.21031: electric (47.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -2.21031: acoustic (68.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.325157: acoustic (71.0)
+|   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -2.138647
+|   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.332184
+|   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.740801
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.357949
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -82.586812: electric (159.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -82.586812
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.458125
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.764674
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -65.725207
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.769732
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.300511: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.300511: acoustic (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.769732: electric (194.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -65.725207
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.768572: electric (20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.768572
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.849152: acoustic (106.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.849152
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.331645: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.331645: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.764674
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.095034
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.75097
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.381194: acoustic (565.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.381194
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.304333: electric (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.304333: acoustic (47.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.75097
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.053172
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.945688
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.572202
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.975431
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.368652: acoustic (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.368652: electric (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.975431
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.989374: acoustic (551.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.989374
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.289196: acoustic (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.289196: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.572202
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.235051: electric (20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.235051: acoustic (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.945688
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.354589
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.951778
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.409862: acoustic (125.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.409862
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -62.513638: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -62.513638: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.951778
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.435751
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.684315
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.281416
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -61.09524: electric (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -61.09524: acoustic (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.281416
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.171873: electric (309.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.171873
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.737514: electric (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.737514: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.684315: acoustic (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.435751
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.340213
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -2.381511
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.500717: acoustic (27.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.500717: electric (90.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -2.381511
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.417931
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.423315
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.137362
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.364478: acoustic (24.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.364478: electric (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.137362
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.305792
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.170738
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.298603: electric (23.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.298603: acoustic (48.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.170738
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.34898: acoustic (271.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.34898
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.29454
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -62.33832: electric (40.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -62.33832: acoustic (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.29454: acoustic (234.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.305792
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.278539: acoustic (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.278539
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.01582: electric (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.01582
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.422689: electric (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.422689: acoustic (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.423315
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.013173
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.203217
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.002756: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.002756
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.326523: acoustic (33.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.326523: electric (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.203217: electric (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.013173: electric (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.417931
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.308589
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.105827: electric (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.105827
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.41974: electric (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.41974: acoustic (66.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.308589
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.6765: acoustic (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.6765
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.311961
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.203832
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -62.328191: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -62.328191: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.203832: electric (85.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.311961: acoustic (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.340213
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.907539
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.463462
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.400093: acoustic (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.400093: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.463462
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.554332
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 3.560228: acoustic (25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 3.560228: electric (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.554332
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.324482
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.03884: electric (24.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.03884: acoustic (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.324482
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.315391
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.729734: electric (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.729734: acoustic (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.315391: electric (241.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.907539: acoustic (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.354589
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.556752
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.817864
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.030454: acoustic (298.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.030454
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.226202: acoustic (49.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.226202
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.001882: acoustic (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.001882: electric (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.817864
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.077687: electric (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.077687: acoustic (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.556752
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.204326: electric (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.204326: acoustic (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.053172
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.629688
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.299026: electric (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.299026: acoustic (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.629688
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.700093
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.480383
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.129688: acoustic (32.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.129688: electric (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.480383
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.340353: acoustic (845.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.340353
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.223689: acoustic (97.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.223689: electric (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.700093
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.357217
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.220865
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.202211: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.202211: acoustic (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.220865: electric (31.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.357217
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.282037: acoustic (70.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.282037
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.303792: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.303792: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.095034
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -62.781897: electric (68.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -62.781897: acoustic (5.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.458125
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 4.214328
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.527207
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.673988: acoustic (27.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.673988
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.013519
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.267792
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.290217
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.32525
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.758924: acoustic (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.758924
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.179156: electric (24.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.179156: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.32525
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.526012: electric (310.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.526012
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.013342: acoustic (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.013342: electric (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.290217
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -63.252541: acoustic (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -63.252541: electric (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.267792
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 4.819341
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.490521: acoustic (47.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.490521
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.30062
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.785608
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.521025: acoustic (40.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.521025: electric (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.785608: electric (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.30062
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.249579: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.249579
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.672774: acoustic (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.672774: electric (55.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 4.819341: electric (27.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.013519: acoustic (25.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.527207: acoustic (49.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 4.214328: acoustic (61.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.357949
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.958392
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -63.300562
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.174211
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.741424: electric (336.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.741424
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.36818: electric (73.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.36818
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.002391: acoustic (58.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.002391: electric (15.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.174211
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.280101
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.251173: acoustic (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.251173: electric (93.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.280101
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -79.394612
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 5.305254: acoustic (54.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 5.305254
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -79.67772: electric (57.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -79.67772
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 6.657008: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 6.657008: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -79.394612
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.97984
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.963381: acoustic (361.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.963381
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.517029: electric (14.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.517029
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.341964: electric (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.341964
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -77.134094
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 6.641878: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 6.641878: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -77.134094: acoustic (72.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.97984
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.175057: electric (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.175057: acoustic (15.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -63.300562
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.110291
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -61.645518: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -61.645518: acoustic (22.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.110291: acoustic (781.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.958392
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.945847
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.608731
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.351236: acoustic (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.351236
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.012119: electric (89.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.012119: acoustic (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.608731
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.629201: acoustic (192.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.629201
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -61.4472: acoustic (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -61.4472: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.945847
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.182654
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 5.140679
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.19818: electric (31.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.19818
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.220014
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.187582
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -64.384344: acoustic (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -64.384344: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.187582: acoustic (204.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.220014
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.495367
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.301519: acoustic (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.301519
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.205227
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -76.87877: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -76.87877: acoustic (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.205227
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.227643
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.334513: acoustic (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.334513: electric (59.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.227643: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.495367: acoustic (32.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 5.140679
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.48777
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.980413: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.980413: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.48777: electric (86.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.182654
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -76.900209: electric (647.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -76.900209
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.103006
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.689771
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.506651
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.035222: electric (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.035222
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.626326: acoustic (38.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.626326: electric (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.506651: acoustic (109.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.689771
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -2.652114
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.456277: electric (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.456277
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.308107
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -62.405011: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -62.405011: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.308107: acoustic (90.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -2.652114
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.63161
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.612969
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.232252: acoustic (69.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.232252: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.612969
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.231651
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.096687
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.912922
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.221439
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -59.429999: electric (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -59.429999: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.221439: electric (410.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.912922
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.347084: electric (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.347084: acoustic (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.096687
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.358869
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -62.909574
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.217489: electric (212.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.217489
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.374318: acoustic (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.374318: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -62.909574
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.642893
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.001042
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.472292: acoustic (30.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.472292
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.505678
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.30259: acoustic (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.30259
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -58.544061
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.766161
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.423297: acoustic (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.423297
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.365517: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.365517: electric (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.766161: electric (79.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -58.544061: acoustic (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.505678
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.021676: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.021676: acoustic (36.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.001042: acoustic (67.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.642893: electric (34.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.358869: acoustic (44.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.231651
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -64.419983: acoustic (37.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -64.419983: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.63161
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.495391: electric (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.495391: acoustic (65.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.103006
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.161212
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.186499
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.524436
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.584366: acoustic (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.584366: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.524436
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.281839
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.946906
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.462226: electric (65.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.462226
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -64.289339: electric (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -64.289339: acoustic (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.946906: acoustic (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.281839
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.602833
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.470237: acoustic (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.470237: electric (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.602833
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.200228
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.109936
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.833854: electric (41.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.833854: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.109936: acoustic (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.200228
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.592225
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.941515
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -58.033783: electric (1895.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -58.033783
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.090682: acoustic (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.090682: electric (35.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.941515
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.23069: electric (25.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.23069: acoustic (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.592225
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.376993: acoustic (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.376993
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -62.928111: electric (158.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -62.928111
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.0195: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.0195: acoustic (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.186499
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.441004
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.5892: electric (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.5892
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 8.423084
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.384648
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.948265: acoustic (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.948265: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.384648
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.400028
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.3453: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.3453: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.400028: acoustic (102.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 8.423084: electric (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.441004
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.259812
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.289584
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.82632
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.890117
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.039398: electric (28.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.039398
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.72779: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.72779: acoustic (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.890117
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.296515
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.077813
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.178362: electric (153.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.178362
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.226386: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.226386: acoustic (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.077813
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.351106: acoustic (23.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.351106: electric (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.296515: electric (696.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.82632
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -66.512057: acoustic (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -66.512057: electric (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.289584
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.355327
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.388708: acoustic (60.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.388708
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -66.674043: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -66.674043: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.355327
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.482826: acoustic (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.482826
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.007504: electric (83.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.007504
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -70.889404: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -70.889404: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.259812
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.372252
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.331953
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.053913
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.881907: acoustic (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.881907: electric (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.053913: acoustic (43.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.331953: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.372252: electric (44.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.161212
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 6.476307
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.75589
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.784799
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -74.620859
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.329542: acoustic (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.329542: electric (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -74.620859
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.686899: acoustic (104.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.686899
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.932792: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.932792: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.784799
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.240926: electric (20.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.240926: acoustic (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.75589: electric (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 6.476307
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -61.622473
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.296143: acoustic (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.296143
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.2495: electric (103.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.2495
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -70.533304: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -70.533304: electric (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -61.622473: acoustic (9.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.740801
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.141232
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.054069: acoustic (55.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.054069: electric (165.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.141232
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -2.056118
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -61.336516
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.656263: electric (99.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.656263
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -64.193378: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -64.193378: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -61.336516: acoustic (30.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -2.056118
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 4.223003
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -78.828372
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 6.439873: acoustic (70.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 6.439873: electric (93.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -78.828372
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.116832
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.070405: acoustic (24.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.070405
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.469758: acoustic (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.469758: electric (52.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.116832
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.191156
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.307788
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.750297
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.711973
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.294664
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -58.709097: electric (57.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -58.709097: acoustic (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.294664: acoustic (26.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.711973
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -74.683694
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 8.937574
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.615589: acoustic (92.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.615589
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.495575: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.495575: acoustic (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 8.937574
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 3.440512: electric (95.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 3.440512
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -76.819087: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -76.819087: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -74.683694
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 3.79677
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 6.638515: acoustic (276.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 6.638515
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.511589
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.88969
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.106895: acoustic (149.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.106895
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.157873
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.171014: electric (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.171014
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.22523: acoustic (19.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.22523
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.323667
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -64.470666: acoustic (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -64.470666: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.323667: electric (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.157873: acoustic (31.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.88969: acoustic (512.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.511589
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.801842
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.126621
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.189251
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.933995: acoustic (52.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.933995: electric (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.189251: electric (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.126621
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.027764: acoustic (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.027764
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -58.533676
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.253517: electric (55.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.253517
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.927131: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.927131: acoustic (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -58.533676: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.801842
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.696862
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.62132: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.62132: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.696862: acoustic (94.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 3.79677
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.223256: acoustic (48.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.223256
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.210369: acoustic (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.210369: electric (40.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.750297
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.078764: acoustic (397.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.078764
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.326392: acoustic (122.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.326392
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.291198: electric (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.291198
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.783248: acoustic (43.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.783248: electric (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.307788
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.370659
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.633892
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.282577: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.282577: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.633892: acoustic (100.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.370659
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.367433: acoustic (28.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.367433
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.321266
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.275314
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -65.107263: acoustic (22.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -65.107263: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.275314
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.29281
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.043046: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.043046: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.29281: electric (160.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.321266: acoustic (33.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.191156
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.050764
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.071621: electric (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.071621: acoustic (28.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.050764
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.515197
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.521345: acoustic (1359.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.521345
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.255489
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -72.942896
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.526193: electric (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.526193
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.406417: electric (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.406417: acoustic (74.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -72.942896: acoustic (220.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.255489
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.247663: electric (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.247663: acoustic (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.515197
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -71.60725: electric (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -71.60725: acoustic (48.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 4.223003
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.34731: acoustic (47.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.34731
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.833571: acoustic (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.833571: electric (107.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.332184
+|   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 3.596401
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.474757: acoustic (1115.0/1.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.474757
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.487394: acoustic (764.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.487394
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 8.526731
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.587488: acoustic (1100.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.587488
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.640215
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.303625
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.402022
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -71.910522: acoustic (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -71.910522: electric (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.402022
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.607632: acoustic (104.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.607632
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -73.638844: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -73.638844: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.303625: electric (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.640215
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.216703: electric (41.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.216703: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 8.526731
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.828836
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.098119: acoustic (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.098119: electric (95.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.828836
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.524019
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -75.577873: electric (40.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -75.577873
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.667364
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.113942
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.179775: electric (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.179775: acoustic (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.113942
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.159198
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.517352: acoustic (13.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.517352: electric (51.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.159198
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.15345
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.847499: acoustic (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.847499: electric (74.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.15345
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.079719
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.418333: acoustic (297.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.418333
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.634463
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.629193: acoustic (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.629193: electric (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.634463
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.012923
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.108971
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.117309
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.382721: electric (77.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.382721: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.117309
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.316105: acoustic (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.316105
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.730042: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.730042: electric (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.108971: acoustic (62.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.012923
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.46135: acoustic (245.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.46135
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -58.834847: acoustic (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -58.834847: electric (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.079719
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.494214
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.498838
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.357287
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.376926: acoustic (84.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.376926
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.108511: acoustic (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.108511: electric (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.357287: acoustic (1002.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.498838
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.264178: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.264178
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.252822
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.117831: electric (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.117831: acoustic (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.252822: acoustic (56.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.494214
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.030776: acoustic (25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.030776: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.667364
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.614014
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.366455
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.286489
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.693316
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.197979: acoustic (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.197979
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -73.115232
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.844183: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.844183: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -73.115232
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.603568: electric (106.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.603568
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -66.540448: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -66.540448: electric (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.693316: acoustic (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.286489: acoustic (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.366455: acoustic (27.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.614014: acoustic (43.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.524019
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.125784
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.227038
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.274492: electric (157.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.274492
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -59.698921: acoustic (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -59.698921: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.227038: acoustic (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.125784
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.903743
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.607319: acoustic (86.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.607319: electric (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.903743: electric (7.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 3.596401
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.571915
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.332649: electric (99.0/1.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.332649: acoustic (6.0/1.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.571915: acoustic (17.0)
+|   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.415115
+|   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -2.56734
+|   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.095761
+|   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.072109: electric (125.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.072109: acoustic (10.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.095761: acoustic (36.0)
+|   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -2.56734
+|   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -81.857698: electric (41.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -81.857698
+|   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.965696
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.594094
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.155251
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.192442: electric (131.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.192442: acoustic (7.0/1.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.155251: acoustic (70.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.594094
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.656216
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 5.621924: acoustic (388.0/2.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 5.621924
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -79.567759: electric (25.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -79.567759
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.031975
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.509591
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.125888: electric (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.125888: acoustic (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.509591
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.428611
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.480073: acoustic (674.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.480073
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.671481: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.671481: acoustic (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.428611
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.071811: acoustic (106.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.071811
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -68.828708: acoustic (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -68.828708: electric (23.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.031975
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.409487
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.399474
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.273902: electric (88.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.273902
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.030779
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.485203: electric (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.485203: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.030779: acoustic (25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.399474
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.670417: acoustic (47.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.670417: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.409487
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -75.151489
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.335343
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 5.933167: acoustic (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 5.933167: electric (42.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.335343
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.317616: acoustic (72.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.317616: electric (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -75.151489
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.901442
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 5.558767
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.872671: acoustic (355.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.872671
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.537729
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.836164: acoustic (146.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.836164
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.309381: acoustic (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.309381: electric (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.537729
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.002777: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.002777: electric (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 5.558767
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.397554: electric (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.397554
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.853272: acoustic (67.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.853272: electric (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.901442
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.331034: electric (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.331034: acoustic (20.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.656216
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.768095
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -76.359691
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 8.3521: acoustic (84.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 8.3521: electric (16.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -76.359691
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.591642: acoustic (2781.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.591642
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.609686
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.185701
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -66.524438: electric (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -66.524438: acoustic (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.185701: acoustic (159.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.609686: electric (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.768095
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -64.529908
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.647516: electric (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.647516: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -64.529908: acoustic (24.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.965696
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -62.717646: electric (132.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -62.717646: acoustic (69.0)
+|   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.670579
+|   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.264951: acoustic (1874.0/1.0)
+|   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.264951
+|   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.127513
+|   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.062844: acoustic (7.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.062844: electric (24.0)
+|   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.127513
+|   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.16626
+|   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.882466
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.864369: acoustic (49.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.864369: electric (80.0/1.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.882466
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.474925: acoustic (775.0/1.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.474925
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.59721: acoustic (165.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.59721
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.377656
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.39784: acoustic (113.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.39784: electric (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.377656
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.546577: acoustic (15.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.546577
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.307182: acoustic (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.307182
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.926421
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.56155: electric (74.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.56155
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -58.026615: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -58.026615: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.926421: acoustic (5.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.16626
+|   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -77.053234
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.861492: acoustic (30.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.861492: electric (29.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -77.053234: acoustic (1608.0/2.0)
+|   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 4.621375
+|   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.367235
+|   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.340287: acoustic (101.0)
+|   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.340287
+|   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.863775: acoustic (4.0)
+|   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.863775: electric (2.0)
+|   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.367235
+|   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.29329
+|   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.534701: acoustic (5.0)
+|   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.534701: electric (20.0)
+|   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.29329: electric (873.0/1.0)
+|   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.887871
+|   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.817868
+|   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.51484
+|   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.51578: electric (17.0)
+|   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.51578: acoustic (8.0)
+|   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.51484: acoustic (530.0)
+|   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.817868
+|   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.437168
+|   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.110024
+|   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -59.820891
+|   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -72.372727: electric (263.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -72.372727
+|   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.969539
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.219624
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.215907: electric (215.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.215907
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -68.971775: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -68.971775: electric (10.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.219624
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.637641: electric (3.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.637641: acoustic (28.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.969539
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.534486
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.058583
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.918847
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.4708
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -60.885484
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.698065
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.770387: electric (247.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.770387
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.358081: acoustic (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.358081: electric (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.698065
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -69.809475: electric (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -69.809475: acoustic (62.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -60.885484
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.250203
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.317124: acoustic (36.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.317124
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.25312: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.25312: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.250203: electric (42.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.4708: acoustic (41.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.918847
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.516024: acoustic (184.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.516024
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -70.297032: electric (25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -70.297032: acoustic (8.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.058583
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.133587
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.550305: acoustic (19.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.550305: electric (48.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.133587
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 13.573137
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.139605
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.098882: electric (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.098882: acoustic (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.139605
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.786249
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.71695
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -65.652562: acoustic (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -65.652562: electric (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.71695
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.146994
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.995543: acoustic (162.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.995543
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.30081: electric (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.30081
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.316942
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -64.219259: acoustic (65.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -64.219259
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.705029: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.705029: acoustic (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.316942: electric (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.146994: acoustic (1162.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.786249
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.564983
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.378336: acoustic (80.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.378336
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.25695: acoustic (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.25695: electric (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.564983
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.177958: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.177958: electric (23.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 13.573137
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.895556: acoustic (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.895556: electric (31.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.534486
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.515678
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.207137
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.235208: electric (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.235208: acoustic (8.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.207137: electric (177.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.515678
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.386512: acoustic (18.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.386512: electric (4.0)
+|   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -59.820891
+|   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.282148
+|   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.242168: electric (9.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.242168: acoustic (8.0/1.0)
+|   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.282148
+|   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.319899
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.419604: electric (13.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.419604: acoustic (3.0)
+|   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.319899: electric (298.0)
+|   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.110024
+|   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.223589
+|   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.720906
+|   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.323666
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.39775
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.144137
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.114875
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.139687: electric (7.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.139687: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.114875: electric (192.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.144137
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.577821: acoustic (6.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.577821: electric (5.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.39775
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.234002: electric (14.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.234002
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.431565: acoustic (36.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.431565: electric (2.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.323666
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.164869: electric (21.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.164869
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 13.225239
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -61.655509
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.508703: acoustic (219.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.508703
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.324935: acoustic (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.324935: electric (13.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -61.655509: electric (14.0/1.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 13.225239: electric (18.0)
+|   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.720906
+|   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.002746
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.269682: electric (12.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.269682
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -62.458715: acoustic (4.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -62.458715: electric (2.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.002746: electric (213.0/1.0)
+|   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.223589
+|   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.933369
+|   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.67693
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.148325
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.540067: electric (12.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.540067: acoustic (74.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.148325: electric (135.0/1.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.67693
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.325974
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.847872
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.487108
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.333253
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.219478: electric (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.219478: acoustic (17.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.333253: electric (36.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.487108
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.436328
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.357167
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.167582: electric (31.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.167582: acoustic (32.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.357167: electric (145.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.436328
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.770019
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.552863
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.921489
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.174616: acoustic (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.174616: electric (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.921489
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.307409: electric (1271.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.307409
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.504423: electric (117.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.504423
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.571106: electric (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.571106: acoustic (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.552863
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.323654
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.697665
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -62.922932: acoustic (29.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -62.922932
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.750047: electric (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.750047: acoustic (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.697665: electric (25.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.323654: electric (139.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.770019: electric (2745.0/1.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.847872
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.583254
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.32778
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.283223
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.362071: acoustic (53.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.362071
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.036957: electric (29.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.036957: acoustic (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.283223
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.650037
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.367528: electric (54.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.367528
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.157371
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -64.198413
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.760917: acoustic (53.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.760917: electric (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -64.198413: electric (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.157371: electric (26.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.650037
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.235854: electric (275.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.235854
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.484689: acoustic (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.484689: electric (11.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.32778: electric (297.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.583254
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.611051: acoustic (44.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.611051: electric (17.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.325974
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.590774
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.158915
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.147521: electric (8.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.147521: acoustic (26.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.158915: electric (123.0/1.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.590774: acoustic (44.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.933369: acoustic (48.0/1.0)
+|   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.437168
+|   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.124927
+|   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -66.95435: electric (25.0)
+|   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -66.95435: acoustic (5.0)
+|   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.124927
+|   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.636918
+|   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.165587
+|   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.276483: acoustic (44.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.276483: electric (7.0)
+|   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.165587: acoustic (478.0/2.0)
+|   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.636918
+|   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.409672
+|   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.239689: acoustic (81.0)
+|   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.239689
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -63.101118
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.613927: acoustic (42.0/1.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.613927: electric (3.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -63.101118
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -59.287353
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.153108: acoustic (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.153108: electric (57.0/2.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -59.287353: acoustic (7.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.409672: electric (10.0)
+Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -57.545961
+|   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.57378
+|   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.175369: acoustic (47280.0)
+|   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.175369
+|   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.582785
+|   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.60968
+|   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.34517: acoustic (109.0)
+|   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.34517
+|   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.955617: electric (9.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.955617: acoustic (13.0)
+|   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.60968
+|   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.460568: acoustic (2637.0/2.0)
+|   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.460568
+|   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.397002: acoustic (75.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.397002
+|   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.04088: acoustic (11.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.04088
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.059231: acoustic (4.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.059231: electric (6.0)
+|   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.582785
+|   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.574795: acoustic (37.0)
+|   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.574795: electric (6.0)
+|   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.57378
+|   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.85587
+|   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.469878
+|   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.785709
+|   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.233355: acoustic (10.0)
+|   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.233355: electric (7.0)
+|   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.785709: acoustic (304.0/1.0)
+|   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.469878
+|   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.203045: electric (19.0)
+|   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.203045
+|   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.854153: electric (5.0)
+|   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.854153: acoustic (30.0)
+|   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.85587
+|   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.419252
+|   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.842658: electric (12.0)
+|   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.842658: acoustic (66.0)
+|   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.419252
+|   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.370463
+|   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.365957
+|   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.040937: electric (15.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.040937: acoustic (31.0/1.0)
+|   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.365957
+|   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.18723
+|   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.549766: acoustic (3.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.549766: electric (24.0/2.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.18723: electric (523.0/1.0)
+|   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.370463
+|   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.229611: electric (10.0)
+|   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.229611: acoustic (15.0)
+
+Number of Leaves  : 	606
+
+Size of the tree : 	1211
+
+
+Time taken to build model: 11.56 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances      101022               99.1199 %
+Incorrectly Classified Instances       897                0.8801 %
+Kappa statistic                          0.9729
+Mean absolute error                      0.0099
+Root mean squared error                  0.0928
+Relative absolute error                  3.0536 %
+Root relative squared error             23.0038 %
+Coverage of cases (0.95 level)          99.1984 %
+Mean rel. region size (0.95 level)      50.2144 %
+Total Number of Instances           101919     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.995    0.023    0.994      0.995    0.994      0.973    0.990     0.996     acoustic
+                 0.977    0.005    0.980      0.977    0.978      0.973    0.990     0.971     electric
+Weighted Avg.    0.991    0.019    0.991      0.991    0.991      0.973    0.990     0.991     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 80659   425 |     a = acoustic
+   472 20363 |     b = electric
+

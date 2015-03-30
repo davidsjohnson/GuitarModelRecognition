@@ -1,0 +1,99 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     MARSYAS_EMPTYacoustic_models_sv.arff
+Instances:    48
+Attributes:   125
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Mean_Acc5_Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.243814
+|   Mean_Acc5_Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.529999
+|   |   Mean_Acc5_Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.022785
+|   |   |   Mean_Acc5_Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.029261: a8 (2.0)
+|   |   |   Mean_Acc5_Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.029261: a2 (2.0)
+|   |   Mean_Acc5_Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.022785
+|   |   |   Std_Acc5_Std_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000038: a3 (3.0/1.0)
+|   |   |   Std_Acc5_Std_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000038
+|   |   |   |   Mean_Acc5_Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.318636: a11 (3.0/1.0)
+|   |   |   |   Mean_Acc5_Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.318636: a12 (5.0/1.0)
+|   Mean_Acc5_Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.529999
+|   |   Mean_Acc5_Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.166817
+|   |   |   Mean_Acc5_Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.033728
+|   |   |   |   Mean_Acc5_Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.436865: a6 (5.0/1.0)
+|   |   |   |   Mean_Acc5_Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.436865: a3 (2.0)
+|   |   |   Mean_Acc5_Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.033728
+|   |   |   |   Std_Acc5_Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000027: a5 (2.0)
+|   |   |   |   Std_Acc5_Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000027: a7 (4.0)
+|   |   Mean_Acc5_Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.166817
+|   |   |   Mean_Acc5_Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.079534
+|   |   |   |   Mean_Acc5_Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.342469
+|   |   |   |   |   Std_Acc5_Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000036: a4 (3.0)
+|   |   |   |   |   Std_Acc5_Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000036: a1 (5.0/1.0)
+|   |   |   |   Mean_Acc5_Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.342469: a5 (2.0)
+|   |   |   Mean_Acc5_Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.079534
+|   |   |   |   Mean_Acc5_Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.458014: a2 (2.0/1.0)
+|   |   |   |   Mean_Acc5_Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.458014: a8 (2.0)
+Mean_Acc5_Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.243814
+|   Mean_Acc5_Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.497865: a9 (2.0)
+|   Mean_Acc5_Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.497865: a10 (4.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances           7               14.5833 %
+Incorrectly Classified Instances        41               85.4167 %
+Kappa statistic                          0.0682
+Mean absolute error                      0.1407
+Root mean squared error                  0.3592
+Relative absolute error                 91.0088 %
+Root relative squared error            128.383  %
+Coverage of cases (0.95 level)          22.9167 %
+Mean rel. region size (0.95 level)      11.8056 %
+Total Number of Instances               48     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.250    0.159    0.125      0.250    0.167      0.067    0.551     0.146     a1
+                 0.500    0.000    1.000      0.500    0.667      0.692    0.750     0.542     a10
+                 0.000    0.091    0.000      0.000    0.000      -0.091   0.432     0.083     a11
+                 0.000    0.023    0.000      0.000    0.000      -0.044   0.466     0.083     a12
+                 0.000    0.068    0.000      0.000    0.000      -0.078   0.420     0.083     a2
+                 0.000    0.136    0.000      0.000    0.000      -0.114   0.420     0.083     a3
+                 0.250    0.023    0.500      0.250    0.333      0.314    0.713     0.292     a4
+                 0.000    0.091    0.000      0.000    0.000      -0.091   0.778     0.250     a5
+                 0.000    0.136    0.000      0.000    0.000      -0.114   0.432     0.083     a6
+                 0.250    0.045    0.333      0.250    0.286      0.234    0.597     0.188     a7
+                 0.250    0.091    0.200      0.250    0.222      0.144    0.582     0.125     a8
+                 0.250    0.068    0.250      0.250    0.250      0.182    0.582     0.125     a9
+Weighted Avg.    0.146    0.078    0.201      0.146    0.160      0.092    0.560     0.174     
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l   <-- classified as
+ 1 0 0 0 0 0 0 1 0 1 0 1 | a = a1
+ 0 2 0 0 0 0 0 0 1 0 0 1 | b = a10
+ 0 0 0 1 0 1 0 0 1 0 1 0 | c = a11
+ 0 0 2 0 0 2 0 0 0 0 0 0 | d = a12
+ 0 0 0 0 0 2 0 0 2 0 0 0 | e = a2
+ 1 0 1 0 2 0 0 0 0 0 0 0 | f = a3
+ 1 0 0 0 0 0 1 2 0 0 0 0 | g = a4
+ 2 0 0 0 0 0 1 0 0 1 0 0 | h = a5
+ 1 0 0 0 0 0 0 1 0 0 1 1 | i = a6
+ 0 0 0 0 1 1 0 0 1 1 0 0 | j = a7
+ 2 0 1 0 0 0 0 0 0 0 1 0 | k = a8
+ 0 0 0 0 0 0 0 0 1 0 2 1 | l = a9
+

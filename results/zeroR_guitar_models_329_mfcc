@@ -1,0 +1,94 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.ZeroR 
+Relation:     MARSYAS_EMPTYguitar_models_mfcc.arff
+Instances:    101919
+Attributes:   27
+              Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              output
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+ZeroR predicts class value: e1
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        8037                7.8857 %
+Incorrectly Classified Instances     93882               92.1143 %
+Kappa statistic                          0     
+Mean absolute error                      0.1244
+Root mean squared error                  0.2494
+Relative absolute error                100      %
+Root relative squared error            100      %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances           101919     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.073     a1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.064     a10
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.064     a11
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.063     a12
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.068     a2
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.068     a3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.069     a4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.068     a5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.066     a6
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.064     a7
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.065     a8
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.064     a9
+                 1.000    1.000    0.079      1.000    0.146      0.000    0.500     0.079     e1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.062     e2
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.500     0.063     e3
+Weighted Avg.    0.079    0.079    0.006      0.079    0.012      0.000    0.500     0.067     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m    n    o   <-- classified as
+    0    0    0    0    0    0    0    0    0    0    0    0 7442    0    0 |    a = a1
+    0    0    0    0    0    0    0    0    0    0    0    0 6536    0    0 |    b = a10
+    0    0    0    0    0    0    0    0    0    0    0    0 6496    0    0 |    c = a11
+    0    0    0    0    0    0    0    0    0    0    0    0 6410    0    0 |    d = a12
+    0    0    0    0    0    0    0    0    0    0    0    0 6973    0    0 |    e = a2
+    0    0    0    0    0    0    0    0    0    0    0    0 6941    0    0 |    f = a3
+    0    0    0    0    0    0    0    0    0    0    0    0 7026    0    0 |    g = a4
+    0    0    0    0    0    0    0    0    0    0    0    0 6921    0    0 |    h = a5
+    0    0    0    0    0    0    0    0    0    0    0    0 6686    0    0 |    i = a6
+    0    0    0    0    0    0    0    0    0    0    0    0 6475    0    0 |    j = a7
+    0    0    0    0    0    0    0    0    0    0    0    0 6673    0    0 |    k = a8
+    0    0    0    0    0    0    0    0    0    0    0    0 6505    0    0 |    l = a9
+    0    0    0    0    0    0    0    0    0    0    0    0 8037    0    0 |    m = e1
+    0    0    0    0    0    0    0    0    0    0    0    0 6326    0    0 |    n = e2
+    0    0    0    0    0    0    0    0    0    0    0    0 6472    0    0 |    o = e3
+

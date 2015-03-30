@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.ZeroR 
+Relation:     MARSYAS_EMPTYguitar_models_sv.arff
+Instances:    60
+Attributes:   125
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+ZeroR predicts class value: a1
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances           0                0      %
+Incorrectly Classified Instances        60              100      %
+Kappa statistic                         -0.0714
+Mean absolute error                      0.1256
+Root mean squared error                  0.2519
+Relative absolute error                100      %
+Root relative squared error            100      %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances               60     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.643    0.000      0.000    0.000      -0.327   0.179     0.067     a1
+                 0.000    0.429    0.000      0.000    0.000      -0.218   0.179     0.067     a10
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     a11
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     a12
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     a2
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     a3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     a4
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     a5
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     a6
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     a7
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     a8
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     a9
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     e1
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     e2
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.179     0.067     e3
+Weighted Avg.    0.000    0.071    0.000      0.000    0.000      -0.036   0.179     0.067     
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o   <-- classified as
+ 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = a1
+ 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = a10
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = a11
+ 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = a12
+ 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = a2
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 | f = a3
+ 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = a4
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 | h = a5
+ 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | i = a6
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 | j = a7
+ 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = a8
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 | l = a9
+ 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | m = e1
+ 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | n = e2
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 | o = e3
+

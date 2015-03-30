@@ -1,0 +1,907 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     MARSYAS_EMPTYelectric_models.arff
+Instances:    20835
+Attributes:   63
+              Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_C#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_D#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_E_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_G_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Chroma_G#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Mean_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_C#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_D#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_E_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_G_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Chroma_G#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0
+              output
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.045041
+|   Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.05285
+|   |   Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.159937
+|   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.004341: e2 (249.0)
+|   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.004341
+|   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.430904: e3 (14.0)
+|   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.430904: e2 (9.0)
+|   |   Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.159937: e1 (12.0)
+|   Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.05285
+|   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.239254
+|   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.123965
+|   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.120793: e3 (452.0)
+|   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.120793
+|   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.028027: e3 (5.0)
+|   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.028027: e2 (11.0)
+|   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.123965
+|   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.032482
+|   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.156355
+|   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000156: e1 (54.0/1.0)
+|   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000156
+|   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.353283: e3 (245.0/1.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.353283: e2 (19.0)
+|   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.156355
+|   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.16294
+|   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.402153
+|   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.001811: e3 (2.0)
+|   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.001811: e2 (19.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.402153
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.191129: e1 (199.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.191129
+|   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.032879: e3 (3.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.032879: e1 (4.0)
+|   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.16294
+|   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.175283
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.145674
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.184589: e2 (19.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.184589: e3 (30.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.145674: e1 (90.0)
+|   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.175283
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -3.061676
+|   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.037743: e3 (24.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.037743: e1 (29.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -3.061676
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.94569
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.012383
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.219327
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.722488
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.035059: e1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.035059: e3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.722488: e2 (19.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.219327: e2 (641.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.012383
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.010876
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 8.135683: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 8.135683: e2 (13.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.010876: e3 (7.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.94569
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.72971
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.275812
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.030971
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.792274
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000027
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.039883: e3 (100.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.039883
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.223229: e3 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.223229: e2 (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000027
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000031: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000031: e2 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.792274
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 8.924907
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -66.906191: e3 (60.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -66.906191
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.003006: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.003006: e2 (39.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 8.924907
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.526034
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.008352: e2 (192.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.008352
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.026459: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.026459: e2 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.526034
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.373069: e1 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.373069: e2 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.030971
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.005163: e2 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.005163: e1 (19.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.275812
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.217005
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.005915
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.158756: e1 (27.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.158756: e2 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.005915
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.221832
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.268561: e2 (80.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.268561
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000038: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000038: e2 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.221832: e1 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.217005
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.01748
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.024903: e2 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.024903: e3 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.01748
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.519165
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.021171: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.021171: e1 (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.519165: e1 (60.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.72971
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.377931: e2 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.377931: e1 (38.0)
+|   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.032482
+|   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.713901: e3 (16.0)
+|   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.713901
+|   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.329774
+|   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.822282: e1 (359.0/1.0)
+|   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.822282
+|   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.005517: e2 (8.0)
+|   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.005517: e1 (5.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.329774: e2 (14.0)
+|   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.239254
+|   |   |   Std_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000063
+|   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.053431
+|   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.149628
+|   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.567355
+|   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -59.760803
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.702386
+|   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.00122
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -69.737804
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.133272: e3 (19.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.133272: e1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -69.737804: e1 (36.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.00122
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.036719
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.808039
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.472297
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.082611
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.002156: e3 (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.002156: e2 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.082611
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.005283
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -3.470762
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -67.656139: e3 (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -67.656139: e1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -3.470762: e3 (1855.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.005283
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.523568: e3 (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.523568: e1 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.472297
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000025
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -63.236428
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.383406
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -71.739283: e3 (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -71.739283: e1 (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.383406
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.253924: e3 (382.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.253924
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.016965: e3 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.016965: e1 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -63.236428
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.026265: e3 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.026265: e1 (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000025
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.165482: e2 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.165482: e1 (16.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.808039
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.163623
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.093013: e3 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.093013: e2 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.163623
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -63.802732
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.001736: e1 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.001736
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.74797
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -2.532344: e1 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -2.532344
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.933779
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.970114: e3 (141.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.970114
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.005652: e3 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.005652: e1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.933779
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.008701: e1 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.008701: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.74797: e1 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -63.802732
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 9.975251: e3 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 9.975251: e1 (43.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.036719
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.036187: e2 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.036187
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.231581
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000011: e3 (47.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000011: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.231581: e1 (35.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.702386
+|   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.00198
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000025
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.166227
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.02041: e3 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.02041: e1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.166227
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.015024
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.001381: e1 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.001381: e3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.015024: e1 (182.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000025: e2 (13.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.00198
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.01857
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.597341
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.075681
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.383381
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -63.470235
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.355607
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.789241: e3 (638.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.789241
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.246679: e1 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.246679
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.490192: e3 (47.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.490192: e1 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.355607
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.017315: e1 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.017315: e3 (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -63.470235
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.169077: e3 (65.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.169077
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.11169
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -63.344802: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -63.344802: e1 (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.11169
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.313287: e1 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.313287
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000015: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000015: e2 (23.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.383381
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -67.697104: e3 (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -67.697104
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.003664: e3 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.003664: e1 (29.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.075681
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.736827: e1 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.736827
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000023: e2 (14.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000023: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.597341
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.453782: e3 (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.453782
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.153411
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.019531: e2 (48.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.019531: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.153411: e1 (17.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.01857
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.066063
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 7.68956: e3 (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 7.68956
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.188167
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.626284
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.784988
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.44355: e3 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.44355: e1 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.784988
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.172697: e1 (280.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.172697
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.794881
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.028794
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.021484: e1 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.021484: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.028794: e1 (56.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.794881: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.626284
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.018555: e1 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.018555
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.031055: e3 (33.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.031055: e1 (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.188167
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.01232
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.202915: e3 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.202915
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.407062: e3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.407062: e1 (37.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.01232: e3 (42.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.066063
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.826931
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.004633
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000031
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.132016
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.005098: e3 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.005098: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.132016: e1 (42.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000031: e2 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.004633
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.202355
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.041166
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.917349
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.925415: e3 (255.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.925415
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.00971: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.00971: e3 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.917349
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.634067
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000014: e1 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_F#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000014: e2 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.634067
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.117885: e1 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.117885
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.792844
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.213323
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.008012
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.022754: e1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.022754: e3 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.008012: e3 (76.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.213323: e1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.792844: e1 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.041166
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.554637: e1 (19.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.554637
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.768246: e1 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.768246: e3 (20.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.202355
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.196887: e3 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.196887: e1 (33.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.826931
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.432357: e3 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.432357
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.829777: e1 (21.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.829777
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.027148: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.027148: e2 (26.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -59.760803
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 10.479687
+|   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.04786: e3 (81.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.04786: e1 (5.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 10.479687
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.449647
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.429086: e1 (173.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.429086
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.883777: e2 (11.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.883777: e1 (6.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.449647
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.019824: e2 (37.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.019824: e1 (7.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.567355
+|   |   |   |   |   |   |   Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.094417: e3 (43.0)
+|   |   |   |   |   |   |   Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.094417
+|   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.016105
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -66.280357
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000032
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.421073
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.935537: e3 (127.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.935537
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.002511: e3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.002511: e1 (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.421073
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.439991: e1 (58.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.439991: e3 (8.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000032
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000031: e2 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000031: e3 (5.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -66.280357
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.395809
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.013965: e2 (11.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.013965: e1 (33.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.395809
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.033552: e1 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.033552
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.738851: e2 (95.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.738851
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000009: e3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000009: e2 (3.0/1.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.016105
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000043
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.028027: e1 (435.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.028027
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.021198: e3 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.021198: e1 (12.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000043: e2 (18.0)
+|   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.149628
+|   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.170899
+|   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.456383: e3 (20.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.456383: e1 (242.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.170899
+|   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.062249: e2 (43.0)
+|   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.062249
+|   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000026
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.00001
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.015175: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.015175: e3 (47.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.00001: e1 (3.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000026: e2 (6.0)
+|   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.053431
+|   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.142667
+|   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.003552
+|   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.383506
+|   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.018093
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.293996
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.003: e1 (37.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.003: e3 (11.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.293996
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.022658: e1 (953.0/2.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.022658
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.651743
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.273988
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.014397: e3 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.014397: e1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.273988: e1 (220.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.651743
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.004458: e3 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.004458: e1 (2.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.018093
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.650316
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.212635
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.293117: e3 (14.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.293117: e1 (217.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.212635
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.001162: e3 (40.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.001162: e1 (4.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.650316
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.435976: e2 (9.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.435976
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.359984: e3 (71.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.359984: e1 (9.0/1.0)
+|   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.383506
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.110582: e1 (16.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.110582
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000008
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.014063: e3 (62.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.014063: e2 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000008: e1 (9.0/1.0)
+|   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.003552
+|   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.048127
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.086622: e2 (17.0/1.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.086622
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.677998: e3 (42.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.677998: e1 (2.0/1.0)
+|   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.048127: e1 (9.0)
+|   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.142667
+|   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.057027
+|   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.124593
+|   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.144434: e2 (31.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.144434
+|   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.227441: e3 (2.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.227441: e1 (2.0)
+|   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.124593
+|   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.443969
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.5636
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.123037: e1 (32.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.123037
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.43274
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.0077
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.18249: e2 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.18249: e1 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.0077
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.066458
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000019: e3 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000019: e2 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.066458
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.512786: e3 (246.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.512786
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.016016: e3 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.016016: e2 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.43274
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.017285: e2 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.017285: e1 (8.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.5636: e1 (34.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.443969
+|   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.547617
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.428946: e1 (53.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.428946: e2 (6.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.547617: e2 (12.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.057027: e2 (43.0/1.0)
+|   |   |   Std_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000063
+|   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -66.014321: e1 (26.0)
+|   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -66.014321
+|   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.358956: e2 (99.0/1.0)
+|   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.358956: e1 (9.0)
+Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.045041
+|   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.46881
+|   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.569936
+|   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.955564
+|   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.623965: e2 (88.0)
+|   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.623965
+|   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.719565
+|   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.654371
+|   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.01409
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.555905
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.420622: e1 (74.0/1.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.420622
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.500946: e1 (19.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.500946: e2 (37.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.555905: e3 (12.0)
+|   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.01409
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.975309
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000037
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.004245
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.027821: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.027821: e3 (4.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.004245: e1 (61.0/1.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000037: e2 (3.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.975309
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.440554: e1 (1250.0/2.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.440554
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000054: e1 (43.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000054: e2 (6.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.654371
+|   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000045
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.204898: e2 (8.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.204898: e1 (42.0/1.0)
+|   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000045: e2 (29.0)
+|   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.719565: e2 (37.0)
+|   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.955564
+|   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000012: e3 (5.0)
+|   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000012: e2 (123.0)
+|   |   Mean_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.569936: e3 (29.0)
+|   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.46881
+|   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 4.465641
+|   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -60.852341
+|   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.00983
+|   |   |   |   |   Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.031273
+|   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.166371: e1 (14.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.166371: e2 (4.0)
+|   |   |   |   |   Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.031273
+|   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.193137
+|   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000007: e1 (7.0)
+|   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000007: e2 (10.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.193137: e2 (493.0/1.0)
+|   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.00983
+|   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.011719
+|   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000022
+|   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.010496: e2 (7.0)
+|   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.010496: e3 (73.0)
+|   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000022
+|   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.848735: e2 (5.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.848735: e1 (5.0)
+|   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.011719
+|   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.153253
+|   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.298197
+|   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000027
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -84.221138
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.610263: e1 (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.610263: e2 (19.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -84.221138
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.68564
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.131023
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.620687: e3 (225.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.620687
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000011: e3 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000011: e1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.131023
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.022179: e3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.022179: e1 (7.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.68564: e1 (17.0)
+|   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000027: e2 (14.0)
+|   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.298197
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.611282: e2 (69.0/1.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.611282
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.168622: e3 (8.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.168622
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000036
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 5.616413: e1 (40.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 5.616413
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000012: e1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000012: e2 (8.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000036: e2 (17.0)
+|   |   |   |   |   |   Std_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.153253
+|   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.004179
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.519506
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.718288
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.014441: e2 (47.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.014441
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.485546
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.843611
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.00002: e1 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.00002
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000029: e2 (38.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000029: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.843611
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 2.904473
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.360496
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.225559: e3 (30.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.225559
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.68864: e1 (100.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.68864: e3 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.360496
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.010353
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.582002: e2 (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.582002: e1 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.010353
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.013281
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.0015: e3 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.0015: e1 (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.013281
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.593671
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.064965
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.924644
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000029
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.274291: e1 (82.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.274291
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.003405: e2 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.003405: e1 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000029: e2 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.924644: e1 (482.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.064965
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000043
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.947522: e1 (30.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.947522: e2 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000043: e2 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.593671
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.019066: e1 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.019066: e2 (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 2.904473
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.378821
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.410571: e3 (35.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.410571: e1 (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.378821
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -64.57193: e1 (25.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -64.57193
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.033268: e2 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.033268: e1 (2.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.485546
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.418886
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.820469
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.88046
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.102443: e3 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.102443
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.16434
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -1.394972: e2 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -1.394972
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.187388
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.494265
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000018: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000018: e1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.494265: e1 (97.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.187388
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.455151
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.004649
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.001629: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.001629: e2 (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.004649
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.578252: e2 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.578252: e1 (21.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.455151: e3 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.16434: e2 (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.88046
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000013: e3 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000013: e2 (34.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.820469
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000008: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000008: e2 (41.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.418886: e2 (97.0/1.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.718288
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 <= 0.011693
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.090268: e1 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.090268
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.955802: e2 (87.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.955802: e1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_ZeroCrossings_HopSize512_WinSize512_Sum_AudioCh0 > 0.011693: e3 (8.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.519506: e2 (66.0/1.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.004179
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.147809
+|   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000007: e1 (38.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000007: e3 (2.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.147809
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.218992
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.600342
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000054
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.294637
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000016: e3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000016: e2 (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.294637
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.636816
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.040229
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000013: e3 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000013: e1 (25.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.040229
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -61.084933: e3 (58.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -61.084933: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.636816
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.035472: e2 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.035472: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000054: e2 (13.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.600342: e1 (18.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.218992
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.001433
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.276276
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.196027: e3 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.196027
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 12.279582
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.213623: e1 (30.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.213623: e3 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 12.279582
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.272107: e2 (76.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.272107
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.542991
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.109372: e1 (27.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.109372
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.020233: e1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.020233: e2 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.542991: e2 (24.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.276276
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.197276: e3 (24.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.197276: e2 (6.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.001433
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 11.0755
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.481554
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.005978: e3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_Rolloff_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.005978: e1 (15.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.481554
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 5.522792: e3 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 5.522792: e2 (28.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC1_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 11.0755
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.174477
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.279554
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.282703: e1 (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Minimum_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.282703: e3 (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.279554: e2 (84.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.174477
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.473946: e2 (394.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC9_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.473946
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_C#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000024: e3 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_C#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000024: e2 (12.0)
+|   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -60.852341
+|   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.683391
+|   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.17431
+|   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000106: e1 (58.0)
+|   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000106: e2 (10.0)
+|   |   |   |   |   Mean_Mem20_PeakRatio_Average_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.17431
+|   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.084201
+|   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.30685
+|   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000144
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.348523: e2 (36.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.348523
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.496659
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.2856
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.094939
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000063: e1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_D_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000063: e2 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.094939: e1 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC11_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.2856
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.695806: e1 (242.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.695806
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000063: e2 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_C_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000063: e1 (4.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.496659
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.246655: e1 (11.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.246655
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000037: e1 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000037
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.647054: e2 (89.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.647054: e1 (4.0/1.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_B_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000144: e2 (27.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.30685
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 1.141424
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000033: e3 (5.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000033: e1 (6.0/1.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 1.141424: e2 (217.0/1.0)
+|   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.084201
+|   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.002786
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.489738: e2 (377.0)
+|   |   |   |   |   |   |   |   Std_Mem20_MFCC3_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.489738
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.132133
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -59.606867
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.276847: e2 (23.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.276847
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.099042: e1 (23.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC10_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.099042: e2 (4.0)
+|   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC0_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -59.606867
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.555113: e2 (189.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.555113
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000067: e2 (17.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Std_Mem20_PeakRatio_Chroma_F_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000067: e1 (5.0)
+|   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC4_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.132133
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.640823
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000137
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.269731
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.437298
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.386359: e2 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.386359: e1 (81.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.437298
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.014305: e1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_Centroid_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.014305: e2 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_MFCC12_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.269731: e2 (13.0)
+|   |   |   |   |   |   |   |   |   |   |   Mean_Mem20_PeakRatio_Chroma_A_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000137: e2 (16.0)
+|   |   |   |   |   |   |   |   |   |   Std_Mem20_MFCC5_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.640823: e2 (27.0)
+|   |   |   |   |   |   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.002786
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.126885
+|   |   |   |   |   |   |   |   |   Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.083007: e2 (32.0)
+|   |   |   |   |   |   |   |   |   Std_Mem20_Flux_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.083007: e1 (3.0)
+|   |   |   |   |   |   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.126885: e2 (990.0)
+|   |   |   |   Mean_Mem20_MFCC8_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.683391: e1 (30.0)
+|   |   Mean_Mem20_MFCC2_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 4.465641
+|   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.197223
+|   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= -0.556228: e3 (60.0)
+|   |   |   |   Mean_Mem20_MFCC7_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > -0.556228: e1 (284.0)
+|   |   |   Mean_Mem20_MFCC6_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.197223
+|   |   |   |   Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 <= 0.000025: e3 (69.0)
+|   |   |   |   Mean_Mem20_PeakRatio_Chroma_A#_Power_powerFFT_WinHamming_HopSize512_WinSize512_Sum_AudioCh0 > 0.000025: e2 (9.0)
+
+Number of Leaves  : 	399
+
+Size of the tree : 	797
+
+
+Time taken to build model: 3.98 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       20307               97.4658 %
+Incorrectly Classified Instances       528                2.5342 %
+Kappa statistic                          0.9617
+Mean absolute error                      0.0191
+Root mean squared error                  0.1278
+Relative absolute error                  4.3141 %
+Root relative squared error             27.1973 %
+Total Number of Instances            20835     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.974     0.018      0.972     0.974     0.973      0.981    e1
+                 0.972     0.01       0.977     0.972     0.975      0.984    e2
+                 0.979     0.011      0.975     0.979     0.977      0.988    e3
+Weighted Avg.    0.975     0.013      0.975     0.975     0.975      0.984
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 7825  103  109 |    a = e1
+  126 6149   51 |    b = e2
+   99   40 6333 |    c = e3
+
